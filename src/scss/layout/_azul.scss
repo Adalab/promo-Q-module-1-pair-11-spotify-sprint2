@@ -3,14 +3,28 @@
     background-color: #0691ff;
     color: white;
     height: 50vh;
+
+    @media all and (min-width: 768px) {
+
+      .hero {
+        background-image: url(./assets/images/premium-dancer.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position-x: right;
+      }
   }
-  
+}
   .hero-title {
   
     max-width: 600px;
     font-size: 3rem;
     line-height: 55px;
+    @media all and (min-width: 768px) {
+      .hero-title {
+        margin-top: 100px;
+    }
   }
+}
   
   .hero-subtitle {
     margin-top: 20px;
