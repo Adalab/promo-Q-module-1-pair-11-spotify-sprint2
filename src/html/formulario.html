@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--     <link rel="stylesheet" href="reset.css" /> -->
+    <!--   <link rel="stylesheet" href="./assets/css/main.css" /> -->
+    <link rel="stylesheet" href="" />
+
+    <title>Formulario</title>
+  </head>
+  <body>
+    <header>
+      <a href=""> <img src="" alt="" /></a>
+    </header>
+    <main>
+      <section>
+        <h1></h1>
+        <button></button>
+        <button></button>
+      </section>
+      <section>
+        <h2></h2>
+        <form action="/signup" method="post">
+          <label for="mail">¿Cuál es tu correo electrónico?</label>
+          <input
+            id="mail"
+            type="email"
+            name="mail"
+            placeholder="Pon tu correo electrónico"
+          />
+
+          <label for="check-mail">Confirma tu correo electrónico</label>
+          <input
+            id="check-mail"
+            type="email"
+            name="check-mail"
+            placeholder=" Vuelve a poner tu correo electrónico"
+          />
+
+          <label for="pass">Crea una contraseña</label>
+          <input
+            id="pass"
+            type="password"
+            name="pass"
+            placeholder="Crea una contraseña"
+          />
+
+          <label for="name">¿Cómo quieres que te llamemos?</label>
+          <input
+            id="name"
+            type="text"
+            name="name"
+            placeholder="Pon un nombre de perfil"
+          />
+
+          <p></p>
+          <legend>¿Cuál es tu fecha de nacimiento?</legend>
+
+          <label for="day">day</label>
+          <input
+            id="day"
+            type="number"
+            min="1"
+            max="31"
+            name="day"
+            placeholder="DD"
+          />
+
+          <label for="month">Mes</label>
+          <input
+            id="month"
+            type="number"
+            min="1"
+            max="12"
+            name="month"
+            placeholder="Mes"
+          />
+
+          <label for="year">Año</label>
+          <input
+            id="year"
+            type="text"
+            maxlength="4"
+            name="year"
+            placeholder="AAA"
+          />
+          <label for="gender">¿Cuál es tu género?</label>
+          <input id="H" type="radio" name="gender" value="Hombre" />
+          <input id="M" type="radio" name="gender" value="Mujer" />
+          <input id="NB" type="radio" name="gender" value="No binario" />
+
+          <input type="submit" value="Enviar info" />
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
